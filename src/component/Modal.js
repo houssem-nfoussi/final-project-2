@@ -4,10 +4,10 @@ const Modal = ({el,setshow_modal}) => {
   return (
     <div className="modal">
         <div className="box">
-            <button onClick={()=>setshow_modal(false)}>X</button>
+            <button className='x2' onClick={()=>setshow_modal(false)}>X</button>
             <h1>{el.name}</h1>
-            <p>{el.description}</p>
-            <h1>{el.price}</h1>
+            <p>description:{el.description}</p>
+            <h1>price:{el.price}$</h1>
             <select>
                 <option>select size</option>
                 <option>M 45*32cm</option>

@@ -3,20 +3,43 @@
   align-items: center;
   justify-content: space-between;
   background-color:cadetblue;
-  padding: 0 10px;
+  padding: 0 10px; 
   
-  
-  
+  font-weight: 500;
+
 }
 .nav img{
   width: 5%;
 }
 .nav ul{
   display: flex;
-  gap: 30px;
+  gap: 60px;
   list-style: none;
   align-items: center;
 }
+.navi li{
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.navi li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:100%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: .3s;
+  
+}
+.nav li:hover::before{
+  width: 100%;
+}
+
 .login{
   display: flex;
   justify-content: center;
@@ -45,16 +68,115 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 .box{
-  width: 50%;
+  width: 30%;
   height: 300px;
-  background-color: white;
+  
+  background-color: rgb(204, 192, 231);
+  border-radius: 1%;
+  font-family: "Lexend Deca", "Montserrat", Tahoma;
 }
+.add_box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+} 
 .list{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 60px;
   
+}
+
+.contact{
+  align-items: center;
+  text-align: center;
+}
+.images{
+  cursor: pointer;  
+}
+.contact img{
+  width: 4%;
+  border-radius: 45%;
+}
+.card img{
+  border-radius: 10%;
+}
+.types{
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.types ul{
+  list-style: none;
+  display: flex;
+  font-size: large;
+  font-weight: 500;
+  gap: 50px;
+  
+}
+.about{
+  text-align: center;
+}
+body{
+  min-height: 100vh;
+  background: url("") no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Lexend Deca", "Montserrat", Tahoma;;
+
+  
+}
+.logo_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.logo{
+  width: 25%;
+}
+.pp{
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.pp::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:100%;
+  width: 0;
+  height: 2px;
+  background-color: #190202;
+  transition: .3s;
+  
+}
+.pp:hover::before{
+  width: 100%;
+}
+.x {
+  width: 5%;
+}
+.types{
+  background-color: rgba(14, 159, 149, 0.998);
+
+}
+.list img {
+  transition: transform 0.3s ease-in-out;
+  border: #190202 solid;
+  cursor: pointer;
+}
+
+.list img:hover {
+  transform: scale(1.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

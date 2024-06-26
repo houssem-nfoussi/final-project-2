@@ -71,7 +71,7 @@ const initialState = {
             image:"https://static.displate.com/324x454/displate/2024-01-13/3c7226b08622d9c7608ff904fd82d5f1_a4458c1e6ef4f09247ce47b6453b2335.avif",
             description:"the original poster for the 1983 movie 'the thing'",
             price:39,
-            category:"movies"
+            category:"movies,comics"
             },    
         {
             name:"deadpool",
@@ -96,11 +96,13 @@ export const PaintingSlice = createSlice({
   name: 'PaintingSlice',
   initialState,
   reducers: {
-    
+    addpaint:(state,action)=>{
+        state.paintings=[...state.paintings,action.payload]
+    }
   },
 })
 
 // Action creators are generated for each case reducer function
-export const {  } = PaintingSlice.actions
+export const { addpaint } = PaintingSlice.actions
 
 export default PaintingSlice.reducer
