@@ -3,8 +3,9 @@ import React from 'react'
 const Modal = ({el,setshow_modal}) => {
   return (
     <div className="modal">
+      
         <div className="box">
-            <button className='x2' onClick={()=>setshow_modal(false)}>X</button>
+        <div><button className='x2' onClick={()=>setshow_modal(false)}>X</button></div>
             {/* <h1>{el.name}</h1> */}
             <h1>description:{el.description}</h1>
             <h1>price:{el.price}$</h1>

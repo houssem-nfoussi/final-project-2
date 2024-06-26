@@ -35,7 +35,7 @@ const Home = () => {
           <li className='pp'  onClick={()=>setcateg("all")} >ALL</li>
           <li className='pp' onClick={()=>setcateg("landscapes")} >landscapes</li>
           <li className='pp' onClick={()=>setcateg("gaming")} >gaming</li>
-          <li className='pp' onClick={()=>setcateg("sport teams")} >sport teams</li>
+          <li className='pp' onClick={()=>setcateg("sport ")} >sport </li>
           <li className='pp' onClick={()=>setcateg("movies,comics")} >movies,comics</li>
         </ul>
         </div>

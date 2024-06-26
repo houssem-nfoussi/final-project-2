@@ -79,14 +79,15 @@
   z-index: 9999;
 }
 .box{
-  width: 40%;
+  width: 50%;
   height: 400px;
   
-  background-color: rgb(107, 137, 225);
-  border-radius: 1%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
   font-family: "Lexend Deca", "Montserrat", Tahoma;
-  font-weight: 600;
-  font-size: large;
+  font-weight: 400;
+  font-size:medium;
+  text-align: center;
   
 }
 .add_box{
@@ -94,8 +95,9 @@
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  background-color: rgb(107, 137, 225);
-  border-radius: 45px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  
 } 
 .list{
   display: flex;
@@ -110,11 +112,14 @@
   text-align: center;
 }
 .images{
-  cursor: pointer;  
+  cursor: pointer; 
+   
+  
 }
 .contact img{
   width: 4%;
   border-radius: 45%;
+  
 }
 .card img{
   border-radius: 10%;
@@ -177,6 +182,19 @@ body{
 }
 .x {
   width: 5%;
+  height: 5%;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  color: black;
+  border: black solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+   font-size: 25px;
+  background-color: transparent;
+}
+.x:hover{
+  background: rgb(151, 172, 240);
 }
 .types{
  background-color: rgb(107, 137, 225);
@@ -202,4 +220,31 @@ body{
 }
 .poster_size:hover{
   background: white;
+}
+.x2{
+  margin: 7px;
+  display: flex;
+  cursor: pointer;
+  color: black;
+  border: black solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+   font-size: 25px;
+  background-color: transparent;
+  
+}
+.x2:hover{
+  background: rgb(151, 172, 240);
+}
+.add_box input{
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+  font-family:"Montserrat", sans-serif;
+}
+.contact a{
+  color: black;
+}
+.contact a:hover{
+  color: blue;
 }
