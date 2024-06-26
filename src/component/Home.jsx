@@ -4,6 +4,7 @@ import Login from './Login'
 import { Route, Routes } from 'react-router-dom'; 
 import List from './List';
 import { useSelector } from 'react-redux';
+import Contact from './Contact';
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
         <Navbar setsearch={setsearch} setnewpainting={setnewpainting}  newpainting={newpainting}   />
         <h1 className='about'>ABOUT:</h1>
         <h2 className='about'>this website allows turns beautiful art work into posters for sale that are easely mounted using using magnets which do not damage your walls in the proccess.</h2>
+        
         <div className='types'>
         <h1>CATEGORIES :</h1>
         <ul className='types'>
@@ -39,6 +41,8 @@ const Home = () => {
         </div>
 
       <List categ={categ} search={search}/>
+      <hr />
+      <Contact/>
     </div>
   )
 }
