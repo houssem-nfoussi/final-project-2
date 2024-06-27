@@ -26,9 +26,10 @@ const Home = () => {
       </div>
       
         <Navbar setsearch={setsearch} setnewpainting={setnewpainting}  newpainting={newpainting}   />
-        <h1 className='about'>ABOUT:</h1>
+        <div className='About'>
+        <h1 className='about'>ABOUT US:</h1>
         <h2 className='about'>Welcome to Art works! We offer a diverse range of high-quality, unique posters to transform your space. From contemporary to classic styles, our curated collection has something for everyone. Enjoy exceptional service, fast shipping, and top-notch craftsmanship. Let your walls tell a story with Art works.</h2>
-        
+        </div>
         <div className='types'>
         <h1>CATEGORIES :</h1>
         <ul className='types'>
@@ -37,6 +38,7 @@ const Home = () => {
           <li className='pp' onClick={()=>setcateg("gaming")} >gaming</li>
           <li className='pp' onClick={()=>setcateg("sport ")} >sport </li>
           <li className='pp' onClick={()=>setcateg("movies,comics")} >movies,comics</li>
+          <li className='pp' onClick={()=>setcateg("music")} >music</li>       
         </ul>
         </div>
 

@@ -11,9 +11,9 @@ const Modal = ({el,setshow_modal}) => {
             <h1>price:{el.price}$</h1>
             <select className="poster_size">
                 <option>select size</option>
-                <option>M 45*32cm</option>
-                <option>L 67.5*48cm</option>
-                <option>XL 90*64cm</option>
+                <option>M: 45*32cm</option>
+                <option>L: 67.5*48cm</option>
+                <option>XL :90*64cm</option>
             </select>
            
         </div>

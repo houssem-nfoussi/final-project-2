@@ -173,6 +173,49 @@ const initialState = {
             price:49,
             category:"movies,comics"
             },
+        {
+            name:"Kanye West ",
+            image:"https://static.displate.com/280x392/displate/2023-08-15/a00ec7ea1fcd4be8cfeacfe8902edcb2_6c96e22ea4eb773efbc92aa0f5a1b661.jpg",
+            description:"Kanye West rapper music Super hero",
+            price:49,
+            category:"music"
+            },
+        {
+            name:"tyler the creator ",
+            image:"https://static.displate.com/280x392/displate/2020-03-03/f571b9f6f16818752e9cfe8515c3977f_7c025b065f8878038d771d3168b4a5df.jpg",
+            description:"This metal poster featuring the artwork of Flower Boy from the album of artist Tyler the Creator",
+            price:49,
+            category:"music"
+            },
+        {
+            name:"daft punk",
+            image:"https://static.displate.com/280x392/displate/2021-05-31/b3c3442adab64e003e65068255d9243d_6b6e0a22579a4a12c530c4b757dde41c.jpg",
+            description:"This metal poster shows an amazing tribute to the Singer Legend",
+            price:49,
+            category:"music"
+            },
+        {
+            name:"guitar",
+            image:"https://static.displate.com/280x392/displate/2023-03-03/8655f6ad5e5621c7d20075c4e58ee0c1_770672f6c32fa2aa139d8325ad99493b.jpg",
+            description:"his Guitar Fire metal poster features a bold, vibrant design of a red electric guitar engulfed in flames. ",
+            price:69,
+            category:"music"
+            },
+        {
+            name:"MF doom",
+            image:"https://static.displate.com/280x392/displate/2021-03-12/ee023dfe7ba03c096070753b9af113ec_2661f1856d90bab8fd173c4455c120e9.jpg",
+            description:"MF Doom in amazing Pop art Portrait WPAP Illustration . High quality poster for your decor. ",
+            price:100,
+            category:"music"
+            },
+        {
+            name:"Kendrick Lamar",
+            image:"https://static.displate.com/280x392/displate/2021-10-06/7fd7ede0e71afc2190a4417679a21037_9cfca00386ca97349f1330e98c438821.jpg",
+            description:"Kendrick Lamar Vintage Grunge Minimalistic Xerox Design ",
+            price:100,
+            category:"music"
+            },
+          
                                   
             
     ]
