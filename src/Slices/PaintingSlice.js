@@ -93,7 +93,7 @@ const initialState = {
             image:"https://static.displate.com/280x392/displate/2020-07-21/602cce304cdceeb3318993ccde493e2d_f19554651269177c901e6efcbc19efc2.jpg",
             description:"Official Licensed high-quality metal print featuring the current club crest in gold",
             price:49,
-            category:"sport "
+            category:"sport"
             },
             
         {
@@ -101,35 +101,35 @@ const initialState = {
             image:"https://static.displate.com/280x392/displate/2021-07-29/57dfb9c7762d22d8ef09cb421e8d7b26_2bccd687e6ff79e91aa8631557a5f600.jpg",
             description:"This stunning digital artwork showcases the emblem of a renowned football club. ",
             price:49,
-            category:"sport "
+            category:"sport"
             },
         {
             name:"PSG",
             image:"https://static.displate.com/280x392/displate/2021-11-22/2a4caac1e119d8c65c96a16d1d76d572_3735a341437b8b8d7d4ad467ffcceb40.jpg",
             description:"This stunning digital artwork showcases the renowned Paris Saint-Germain logo ",
             price:49,
-            category:"sport "
+            category:"sport"
             },
         {
             name:"basket ball",
             image:"https://static.displate.com/280x392/displate/2024-01-07/31a78a9ae292d6167fd17710362a4357_c0c1cce3db006ba9a067c6fbaf219eee.jpg",
             description:"Basketball pop art illustration.",
             price:49,
-            category:"sport "
+            category:"sport"
             },
         {
             name:"ronaldinho",
             image:"https://static.displate.com/280x392/displate/2020-05-19/abdba05f48ac84b853a8102450c14572_7132dfde9bfc4ee7a91ceb24f5547660.jpg",
             description:"Fascinating Illustration of Ronaldinho. Abstract Painting designed by Creativedy Stuff ",
             price:49,
-            category:"sport "
+            category:"sport"
             },
         {
             name:"mike tyson",
             image:"https://static.displate.com/280x392/displate/2021-01-25/5296c95cf48e5bd46a19680ce5d301fa_03f04d48ed241bf1acf2b95a25830e24.jpg",
             description:"mike tyson painted poster ",
             price:49,
-            category:"sport "
+            category:"sport"
             },    
         {
             name:"john wick",
