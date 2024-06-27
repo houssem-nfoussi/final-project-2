@@ -27,7 +27,7 @@ const Home = () => {
       
         <Navbar setsearch={setsearch} setnewpainting={setnewpainting}  newpainting={newpainting}   />
         <h1 className='about'>ABOUT:</h1>
-        <h2 className='about'>this website allows turns beautiful art work into posters for sale that are easely mounted using using magnets which do not damage your walls in the proccess.</h2>
+        <h2 className='about'>Welcome to Art works! We offer a diverse range of high-quality, unique posters to transform your space. From contemporary to classic styles, our curated collection has something for everyone. Enjoy exceptional service, fast shipping, and top-notch craftsmanship. Let your walls tell a story with Art works.</h2>
         
         <div className='types'>
         <h1>CATEGORIES :</h1>

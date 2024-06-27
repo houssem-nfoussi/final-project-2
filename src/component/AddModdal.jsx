@@ -9,7 +9,7 @@ const AddModdal = ({setshowadd,setnewpainting,newpainting}) => {
         <div className="add_box">
             
             <button className='x' onClick={()=>setshowadd(false)} >X</button>
-            <h1>Add your own art work for others to buy</h1>
+            <h1>Add your own art work here</h1>
             <input type="text" onChange={(e)=>setnewpainting({...newpainting,name:e.target.value})}placeholder="name"/>
             <input type="text" onChange={(e)=>setnewpainting({...newpainting,description:e.target.value})} placeholder="description"/>
             <input type="text" onChange={(e)=>setnewpainting({...newpainting,image:e.target.value})} placeholder="image" />
